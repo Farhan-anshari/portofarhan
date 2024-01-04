@@ -1,0 +1,140 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  .hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: #698086;
+  }
+  nav{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+  nav.logo{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  nav ul li{
+    display: inline-flex;
+    margin: 10px 15px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: antiquewhite;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+nav ul li a:hover{
+    color: #FFCC00;
+}
+.btn{
+    text-decoration: none;
+    background: #FFCC00;
+    color: aliceblue;
+    padding: 10px 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+.btncv{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 15%;
+    width: 40%;
+}
+.info.h1{
+    font-size: 70px;
+    color: aliceblue;
+}
+.info.h1 span{
+    color: #FFCC00;
+}
+.info p{
+    color: aliceblue;
+    line-height: 22px;
+}
+.info btn{
+    display: inline-block;
+    margin: 30px 0;
+}
+.icons{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.icons a{
+    font-size: 30px;
+    margin-right: 20px;
+    color: aliceblue;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.icons a:hover{
+    color: #FFCC00;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.images.hover .background{
+    bottom: 40px;
+}
+.images.hover .Profile{
+    left: 54%;
+}
